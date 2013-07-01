@@ -379,6 +379,13 @@ class Message
         return $this;
     }
 
+    public function configure($apiKey, $timeout = 5, $ssl = true)
+    {
+        $this->client->setApiKey($apiKey);
+        $this->client->setTimeout($timeout);
+        $this->client->setSsl($ssl);
+    }
+
     /**
      * Make request to postmark api
      *
