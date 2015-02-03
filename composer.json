@@ -1,9 +1,8 @@
 {
-    "name": "mlpz/postmark-bundle",
+    "name": "sibrus/postmark-bundle",
     "type": "symfony-bundle",
     "description": "postmark bundle",
     "keywords": ["postmark","api", "mailer"],
-    "homepage": "http://www.mlpz.mp",
     "license": "MIT",
     "authors": [
         {
